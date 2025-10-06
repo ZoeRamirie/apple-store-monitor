@@ -1,0 +1,54 @@
+{
+  "region": "HK",
+  "mode": "single_store_multi_product",
+  "check_interval": 60,
+  "notification_enabled": true,
+  "sound_enabled": true,
+  
+  "target_stores": [
+    "R409",
+    "R428",
+    "R499"
+  ],
+  
+  "target_products": [
+    {
+      "part_number": "MFYP4ZA/A",
+      "name": "iPhone 17 Pro Max 256GB 深墨蓝色",
+      "priority": "high"
+    },
+    {
+      "part_number": "MFYN4ZA/A",
+      "name": "iPhone 17 Pro Max 256GB 宇宙橙色",
+      "priority": "high"
+    },
+    {
+      "part_number": "MFYM4ZA/A",
+      "name": "iPhone 17 Pro Max 256GB 银色",
+      "priority": "high"
+    }
+  ],
+  
+  "notification": {
+    "desktop": true,
+    "sound": true,
+    "log": true
+  },
+  
+  "rate_limit": {
+    "max_requests_per_minute": 30,
+    "delay_between_requests": 2
+  },
+  
+  "notes": "优先配置：监控3个核心门店，3个256GB配置",
+  
+  "frequency_info": {
+    "stores": 3,
+    "products": 3,
+    "interval": 60,
+    "estimated_frequency": "3次/分钟",
+    "safety": "非常安全"
+  }
+}
+
+

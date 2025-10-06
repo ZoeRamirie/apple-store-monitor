@@ -1,0 +1,93 @@
+{
+  "_comment": "深圳门店配置 - 距离香港最近的Apple Store",
+  "_scenario": "作为香港的替代方案，深圳门店距离香港很近",
+  "_calculation": {
+    "products": 1,
+    "stores": 3,
+    "check_interval": 30,
+    "rate_per_minute": "5.45次/分钟",
+    "safety": "✅ 安全"
+  },
+  
+  "region": "CN",
+  
+  "target_products": [
+    {
+      "name": "iPhone 16 Plus 白色 128GB",
+      "part_number": "MXUA3CH/A",
+      "color": "白色",
+      "storage": "128G",
+      "series": "iPhone 16 plus"
+    }
+  ],
+  
+  "all_stores": false,
+  
+  "target_stores": [
+    "R484",
+    "R761",
+    "R793"
+  ],
+  
+  "_store_info": {
+    "R484": "深圳 益田假日广场 Apple Store",
+    "R761": "深圳 万象城 Apple Store",
+    "R793": "深圳 前海壹方城 Apple Store",
+    "_note": "深圳距离香港约30-60分钟车程，通关后可前往"
+  },
+  
+  "check_interval": 30,
+  
+  "enable_notification": true,
+  "enable_sound": true,
+  
+  "notification_types": [
+    "desktop",
+    "sound",
+    "log"
+  ],
+  
+  "max_retries": 3,
+  "timeout": 10,
+  "save_history": true,
+  "log_level": "INFO",
+  
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+  
+  "_usage": {
+    "description": "深圳门店监控配置（香港用户的最佳替代）",
+    "advantages": [
+      "已验证可用的API",
+      "距离香港近（30-60分钟）",
+      "通关后可前往购买",
+      "请求频率安全（5.45次/分钟）"
+    ],
+    "for_hongkong_users": [
+      "如果住在香港或深圳",
+      "愿意过关去深圳购买",
+      "深圳门店货源相对充足"
+    ]
+  },
+  
+  "_transportation": {
+    "从香港到深圳": [
+      "深圳湾口岸 → 15分钟到益田假日广场",
+      "福田口岸 → 10分钟到万象城",
+      "罗湖口岸 → 20分钟到万象城"
+    ],
+    "注意事项": [
+      "需要港澳通行证",
+      "注意通关时间",
+      "提前查询门店营业时间"
+    ]
+  },
+  
+  "_notes": [
+    "此配置监控深圳3个门店",
+    "请求频率：5.45次/分钟，完全安全",
+    "深圳距离香港近，适合香港用户",
+    "如果成功抢到，可以通关前往购买"
+  ]
+}
+
+

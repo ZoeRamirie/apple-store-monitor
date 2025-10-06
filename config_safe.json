@@ -1,0 +1,82 @@
+{
+  "_comment": "安全配置文件 - 已根据Apple API限制规则优化",
+  "_calculation": {
+    "products": 1,
+    "stores": 5,
+    "store_delay": 1,
+    "check_interval": 30,
+    "one_round_time": "5秒",
+    "total_cycle": "35秒",
+    "rate_per_minute": "8.57次/分钟",
+    "safety": "✅ 安全"
+  },
+  
+  "target_products": [
+    {
+      "name": "iPhone 16 Plus 白色 128GB",
+      "part_number": "MXUA3CH/A",
+      "color": "白色",
+      "storage": "128G",
+      "series": "iPhone 16 plus"
+    }
+  ],
+  
+  "all_stores": false,
+  
+  "target_stores": [
+    "R359",
+    "R389",
+    "R401",
+    "R581",
+    "R678"
+  ],
+  
+  "_store_info": {
+    "R359": "上海南京东路",
+    "R389": "上海浦东",
+    "R401": "上海环贸iapm",
+    "R581": "上海五角场",
+    "R678": "上海静安"
+  },
+  
+  "check_interval": 30,
+  
+  "enable_notification": true,
+  "enable_sound": true,
+  
+  "notification_types": [
+    "desktop",
+    "sound",
+    "log"
+  ],
+  
+  "max_retries": 3,
+  "timeout": 10,
+  "save_history": true,
+  "log_level": "INFO",
+  
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+  
+  "_notes": [
+    "此配置已优化为安全频率：8.57次/分钟",
+    "监控5个上海地区门店（从原来的8个减少）",
+    "check_interval从10秒增加到30秒",
+    "完全符合Apple API限制规则",
+    "可长时间稳定运行，不会触发HTTP 541"
+  ],
+  
+  "_alternative_configs": {
+    "更保守配置": {
+      "target_stores": "3个门店",
+      "check_interval": 20,
+      "rate": "9次/分钟"
+    },
+    "更快速配置": {
+      "target_stores": "8个门店",
+      "check_interval": 48,
+      "rate": "8.57次/分钟"
+    }
+  }
+}
+
+

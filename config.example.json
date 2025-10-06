@@ -1,0 +1,43 @@
+{
+  "region": "CN",
+  "target_products": [
+    {
+      "name": "iPhone 16 白色 128GB",
+      "part_number": "MYEW3CH/A",
+      "color": "白色",
+      "storage": "128GB",
+      "priority": "high"
+    },
+    {
+      "name": "iPhone 16 PLUS 白色 256GB",
+      "part_number": "MXUG3CH/A",
+      "color": "白色",
+      "storage": "256GB",
+      "priority": "high"
+    }
+  ],
+  "target_stores": [
+    "R448",
+    "R479",
+    "R389"
+  ],
+  "all_stores": false,
+  "check_interval": 60,
+  "notification_enabled": true,
+  "sound_enabled": true,
+  "notification": {
+    "desktop": true,
+    "sound": true,
+    "log": true
+  },
+  "rate_limit": {
+    "max_requests_per_minute": 30,
+    "delay_between_requests": 2
+  },
+  "max_retries": 3,
+  "timeout": 10,
+  "log_level": "INFO",
+  "save_history": true,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "notes": "大陆门店示例配置 - iPhone 16 Pro Max"
+}

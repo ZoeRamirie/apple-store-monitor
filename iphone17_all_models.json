@@ -1,0 +1,266 @@
+[
+  {
+    "series": "iPhone 16",
+    "name": "iPhone 16 黑色 128GB",
+    "part_number": "MYEV3CH/A",
+    "color": "黑色",
+    "storage": "128GB",
+    "description": "苹果iPhone 16 128GB 黑色 (测试用-有库存)"
+  },
+  {
+    "series": "iPhone 16 Plus",
+    "name": "iPhone 16 Plus 白色 128GB",
+    "part_number": "MXUA3CH/A",
+    "color": "白色",
+    "storage": "128GB",
+    "description": "苹果iPhone 16 Plus 128GB 白色 (测试用)"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 黑色 256GB",
+    "part_number": "MG6W4CH/A",
+    "color": "黑色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 256GB 黑色 6W4-774"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 白色 256GB",
+    "part_number": "MG6X4CH/A",
+    "color": "白色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 256GB 白色 6X4-784"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 青雾蓝色 256GB",
+    "part_number": "MG6Y4CH/A",
+    "color": "青雾蓝色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 256GB 青雾蓝色 6Y4-794"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 薰衣草紫色 256GB",
+    "part_number": "MG704CH/A",
+    "color": "薰衣草紫色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 256GB 薰衣草紫色 704-7A4"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 鼠尾草绿色 256GB",
+    "part_number": "MG714CH/A",
+    "color": "鼠尾草绿色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 256GB 鼠尾草绿色 714-7C4"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 黑色 512GB",
+    "part_number": "MG724CH/A",
+    "color": "黑色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 512GB 黑色 724-7D4"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 白色 512GB",
+    "part_number": "MG734CH/A",
+    "color": "白色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 512GB 白色 734-7E4"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 青雾蓝色 512GB",
+    "part_number": "MG744CH/A",
+    "color": "青雾蓝色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 512GB 青雾蓝色 744-7F4"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 薰衣草紫色 512GB",
+    "part_number": "MG754CH/A",
+    "color": "薰衣草紫色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 512GB 薰衣草紫色 754-7G4"
+  },
+  {
+    "series": "iPhone 17",
+    "name": "iPhone 17 鼠尾草绿色 512GB",
+    "part_number": "MG764CH/A",
+    "color": "鼠尾草绿色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 512GB 鼠尾草绿色 764-7H4"
+  },
+  {
+    "series": "iPhone 17 Pro",
+    "name": "iPhone 17 Pro 银色 256GB",
+    "part_number": "MG8T4CH/A",
+    "color": "银色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 Pro 256GB 银色 8T4-934"
+  },
+  {
+    "series": "iPhone 17 Pro",
+    "name": "iPhone 17 Pro 星宇橙色 256GB",
+    "part_number": "MG8U4CH/A",
+    "color": "星宇橙色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 Pro 256GB 星宇橙色 8U4-944"
+  },
+  {
+    "series": "iPhone 17 Pro",
+    "name": "iPhone 17 Pro 深蓝色 256GB",
+    "part_number": "MG8V4CH/A",
+    "color": "深蓝色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 Pro 256GB 深蓝色 8V4-954"
+  },
+  {
+    "series": "iPhone 17 Pro",
+    "name": "iPhone 17 Pro 银色 512GB",
+    "part_number": "MG8W4CH/A",
+    "color": "银色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 Pro 512GB 银色 8W4-964"
+  },
+  {
+    "series": "iPhone 17 Pro",
+    "name": "iPhone 17 Pro 星宇橙色 512GB",
+    "part_number": "MG8X4CH/A",
+    "color": "星宇橙色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 Pro 512GB 星宇橙色 8X4-974"
+  },
+  {
+    "series": "iPhone 17 Pro",
+    "name": "iPhone 17 Pro 深蓝色 512GB",
+    "part_number": "MG8Y4CH/A",
+    "color": "深蓝色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 Pro 512GB 深蓝色 8Y4-984"
+  },
+  {
+    "series": "iPhone 17 Pro",
+    "name": "iPhone 17 Pro 银色 1TB",
+    "part_number": "MG904CH/A",
+    "color": "银色",
+    "storage": "1TB",
+    "description": "苹果iPhone17 Pro 1TB 银色 904-994"
+  },
+  {
+    "series": "iPhone 17 Pro",
+    "name": "iPhone 17 Pro 星宇橙色 1TB",
+    "part_number": "MG914CH/A",
+    "color": "星宇橙色",
+    "storage": "1TB",
+    "description": "苹果iPhone17 Pro 1TB 星宇橙色 914-9A4"
+  },
+  {
+    "series": "iPhone 17 Pro",
+    "name": "iPhone 17 Pro 深蓝色 1TB",
+    "part_number": "MG924CH/A",
+    "color": "深蓝色",
+    "storage": "1TB",
+    "description": "苹果iPhone17 Pro 1TB 深蓝色 924-9C4"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 银色 256GB",
+    "part_number": "MG034CH/A",
+    "color": "银色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 Pro Max 256GB 银色 034-0U4"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 星宇橙色 256GB",
+    "part_number": "MG044CH/A",
+    "color": "星宇橙色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 Pro Max 256GB 星宇橙色 044-0V4"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 深蓝色 256GB",
+    "part_number": "MG054CH/A",
+    "color": "深蓝色",
+    "storage": "256GB",
+    "description": "苹果iPhone17 Pro Max 256GB 深蓝色 054-0W4"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 银色 512GB",
+    "part_number": "MG064CH/A",
+    "color": "银色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 Pro Max 512GB 银色 064-0X4"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 星宇橙色 512GB",
+    "part_number": "MG074CH/A",
+    "color": "星宇橙色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 Pro Max 512GB 星宇橙色 074-104"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 深蓝色 512GB",
+    "part_number": "MG084CH/A",
+    "color": "深蓝色",
+    "storage": "512GB",
+    "description": "苹果iPhone17 Pro Max 512GB 深蓝色 084-114"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 银色 1TB",
+    "part_number": "MG094CH/A",
+    "color": "银色",
+    "storage": "1TB",
+    "description": "苹果iPhone17 Pro Max 1TB 银色 094-124"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 星宇橙色 1TB",
+    "part_number": "MG0A4CH/A",
+    "color": "星宇橙色",
+    "storage": "1TB",
+    "description": "苹果iPhone17 Pro Max 1TB 星宇橙色 0A4-134"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 深蓝色 1TB",
+    "part_number": "MG0E4CH/A",
+    "color": "深蓝色",
+    "storage": "1TB",
+    "description": "苹果iPhone17 Pro Max 1TB 深蓝色 0E4-144"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 银色 2TB",
+    "part_number": "MG0F4CH/A",
+    "color": "银色",
+    "storage": "2TB",
+    "description": "苹果iPhone17 Pro Max 2TB 银色 0F4-154"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 星宇橙色 2TB",
+    "part_number": "MG0G4CH/A",
+    "color": "星宇橙色",
+    "storage": "2TB",
+    "description": "苹果iPhone17 Pro Max 2TB 星宇橙色 0G4-164"
+  },
+  {
+    "series": "iPhone 17 Pro Max",
+    "name": "iPhone 17 Pro Max 深蓝色 2TB",
+    "part_number": "MG0Q4CH/A",
+    "color": "深蓝色",
+    "storage": "2TB",
+    "description": "苹果iPhone17 Pro Max 2TB 深蓝色 0Q4-174"
+  }
+]

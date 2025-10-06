@@ -1,0 +1,99 @@
+{
+  "_comment": "香港门店配置示例",
+  "_scenario": "监控香港IFC Apple Store的iPhone 16 Plus",
+  "_calculation": {
+    "products": 1,
+    "stores": 1,
+    "check_interval": 30,
+    "rate_per_minute": "2次/分钟",
+    "safety": "✅ 极度安全"
+  },
+  
+  "region": "HK",
+  
+  "target_products": [
+    {
+      "name": "iPhone 16 Plus White 128GB",
+      "part_number": "MXUA3ZP/A",
+      "color": "White",
+      "storage": "128GB",
+      "series": "iPhone 16 Plus",
+      "_note": "香港版Part Number通常以ZP/A结尾"
+    }
+  ],
+  
+  "all_stores": false,
+  
+  "target_stores": [
+    "R428"
+  ],
+  
+  "_store_info": {
+    "R428": "Apple 國際金融中心 (IFC Mall) - 中環",
+    "R485": "Apple 又一城 - 九龍塘",
+    "R499": "Apple 銅鑼灣 - 銅鑼灣",
+    "R644": "Apple 尖沙咀 - 尖沙咀"
+  },
+  
+  "check_interval": 30,
+  
+  "enable_notification": true,
+  "enable_sound": true,
+  
+  "notification_types": [
+    "desktop",
+    "sound",
+    "log"
+  ],
+  
+  "max_retries": 3,
+  "timeout": 10,
+  "save_history": true,
+  "log_level": "INFO",
+  
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+  
+  "_usage": {
+    "description": "香港Apple Store监控配置",
+    "api_endpoint": "https://www.apple.com/hk/shop/retail/pickup-message",
+    "language": "zh-HK",
+    "currency": "HKD"
+  },
+  
+  "_notes": [
+    "香港共有4家Apple Store",
+    "Part Number格式：ZP/A（香港版）",
+    "API端点：https://www.apple.com/hk",
+    "请求频率：2次/分钟，极度安全",
+    "可以增加到多个门店或多个产品"
+  ],
+  
+  "_available_stores": [
+    {
+      "code": "R428",
+      "name": "Apple 國際金融中心",
+      "location": "中環",
+      "district": "香港島"
+    },
+    {
+      "code": "R485",
+      "name": "Apple 又一城",
+      "location": "九龍塘",
+      "district": "九龍"
+    },
+    {
+      "code": "R499",
+      "name": "Apple 銅鑼灣",
+      "location": "銅鑼灣",
+      "district": "香港島"
+    },
+    {
+      "code": "R644",
+      "name": "Apple 尖沙咀",
+      "location": "尖沙咀",
+      "district": "九龍"
+    }
+  ]
+}
+
+

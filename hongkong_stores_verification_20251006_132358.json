@@ -1,0 +1,96 @@
+{
+  "verification_time": "2025-10-06T13:23:58.178404",
+  "total_stores": 4,
+  "valid_count": 0,
+  "invalid_count": 4,
+  "success_rate": 0.0,
+  "valid_stores": [],
+  "invalid_stores": [
+    {
+      "storeNumber": "R428",
+      "storeName": "Apple 國際金融中心 (IFC Mall)",
+      "error": "响应结构不正确",
+      "verified": false
+    },
+    {
+      "storeNumber": "R485",
+      "storeName": "Apple 又一城",
+      "error": "响应结构不正确",
+      "verified": false
+    },
+    {
+      "storeNumber": "R499",
+      "storeName": "Apple 銅鑼灣",
+      "error": "响应结构不正确",
+      "verified": false
+    },
+    {
+      "storeNumber": "R644",
+      "storeName": "Apple 尖沙咀",
+      "error": "响应结构不正确",
+      "verified": false
+    }
+  ],
+  "all_results": [
+    {
+      "valid": false,
+      "store_number": "R428",
+      "error": "响应结构不正确",
+      "response_code": 200,
+      "response_data": {
+        "head": {
+          "status": "200",
+          "data": {}
+        },
+        "body": {
+          "content": {}
+        }
+      }
+    },
+    {
+      "valid": false,
+      "store_number": "R485",
+      "error": "响应结构不正确",
+      "response_code": 200,
+      "response_data": {
+        "head": {
+          "status": "200",
+          "data": {}
+        },
+        "body": {
+          "content": {}
+        }
+      }
+    },
+    {
+      "valid": false,
+      "store_number": "R499",
+      "error": "响应结构不正确",
+      "response_code": 200,
+      "response_data": {
+        "head": {
+          "status": "200",
+          "data": {}
+        },
+        "body": {
+          "content": {}
+        }
+      }
+    },
+    {
+      "valid": false,
+      "store_number": "R644",
+      "error": "响应结构不正确",
+      "response_code": 200,
+      "response_data": {
+        "head": {
+          "status": "200",
+          "data": {}
+        },
+        "body": {
+          "content": {}
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "_comment": "单门店+多产品配置示例 - 中国大陆",
+  "_scenario": "监控上海静安Apple Store的3个iPhone 16 Plus型号",
+  "_calculation": {
+    "products": 3,
+    "stores": 1,
+    "product_delay": 1,
+    "check_interval": 30,
+    "one_round_time": "3秒",
+    "total_cycle": "33秒",
+    "rate_per_minute": "5.45次/分钟",
+    "safety": "✅ 安全"
+  },
+  
+  "region": "CN",
+  
+  "target_products": [
+    {
+      "name": "iPhone 16 Plus 白色 128GB",
+      "part_number": "MXUA3CH/A",
+      "color": "白色",
+      "storage": "128G",
+      "series": "iPhone 16 plus"
+    },
+    {
+      "name": "iPhone 16 Plus 白色 256GB",
+      "part_number": "MXUB3CH/A",
+      "color": "白色",
+      "storage": "256G",
+      "series": "iPhone 16 plus"
+    },
+    {
+      "name": "iPhone 16 Plus 黑色 128GB",
+      "part_number": "MXUC3CH/A",
+      "color": "黑色",
+      "storage": "128G",
+      "series": "iPhone 16 plus"
+    }
+  ],
+  
+  "all_stores": false,
+  
+  "target_stores": [
+    "R678"
+  ],
+  
+  "_store_info": {
+    "R678": "上海静安 Apple Store"
+  },
+  
+  "check_interval": 30,
+  
+  "enable_notification": true,
+  "enable_sound": true,
+  
+  "notification_types": [
+    "desktop",
+    "sound",
+    "log"
+  ],
+  
+  "max_retries": 3,
+  "timeout": 10,
+  "save_history": true,
+  "log_level": "INFO",
+  
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+  
+  "_usage": {
+    "description": "单门店+多产品监控配置",
+    "advantages": [
+      "请求频率低（5.45次/分钟）",
+      "只监控一个门店，方便购买",
+      "可以监控多个型号，增加抢到概率",
+      "配置简单，易于使用"
+    ],
+    "suitable_for": [
+      "只关心某个特定门店",
+      "对型号/颜色/容量不确定",
+      "希望有更多选择余地"
+    ]
+  },
+  
+  "_notes": [
+    "此配置监控3个产品，1个门店",
+    "请求频率：5.45次/分钟，完全安全",
+    "每33秒检查一轮",
+    "可以根据需要增加到5个产品，仍然安全"
+  ]
+}
+
+

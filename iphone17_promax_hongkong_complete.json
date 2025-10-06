@@ -1,0 +1,111 @@
+{
+  "region": "Hong Kong",
+  "region_code": "HK",
+  "device": "iPhone 17 Pro Max",
+  "part_number_format": "ZA/A",
+  "last_updated": "2025-10-06",
+  "verified": true,
+  "models": [
+    {
+      "part_number": "MFYP4ZA/A",
+      "storage": "256GB",
+      "color": "深墨蓝色",
+      "color_en": "Deep Blue",
+      "priority": "high",
+      "note": "最热门配置"
+    },
+    {
+      "part_number": "MFYN4ZA/A",
+      "storage": "256GB",
+      "color": "宇宙橙色",
+      "color_en": "Cosmic Orange",
+      "priority": "high"
+    },
+    {
+      "part_number": "MFYM4ZA/A",
+      "storage": "256GB",
+      "color": "银色",
+      "color_en": "Silver",
+      "priority": "high"
+    },
+    {
+      "part_number": "MFYQ4ZA/A",
+      "storage": "512GB",
+      "color": "银色",
+      "color_en": "Silver",
+      "priority": "medium"
+    },
+    {
+      "part_number": "MFYT4ZA/A",
+      "storage": "512GB",
+      "color": "宇宙橙色",
+      "color_en": "Cosmic Orange",
+      "priority": "medium"
+    },
+    {
+      "part_number": "MFYU4ZA/A",
+      "storage": "512GB",
+      "color": "深墨蓝色",
+      "color_en": "Deep Blue",
+      "priority": "medium"
+    },
+    {
+      "part_number": "MFYX4ZA/A",
+      "storage": "1TB",
+      "color": "深墨蓝色",
+      "color_en": "Deep Blue",
+      "priority": "medium"
+    },
+    {
+      "part_number": "MFYW4ZA/A",
+      "storage": "1TB",
+      "color": "宇宙橙色",
+      "color_en": "Cosmic Orange",
+      "priority": "medium"
+    },
+    {
+      "part_number": "MFYV4ZA/A",
+      "storage": "1TB",
+      "color": "银色",
+      "color_en": "Silver",
+      "priority": "medium"
+    },
+    {
+      "part_number": "MFYY4ZA/A",
+      "storage": "2TB",
+      "color": "银色",
+      "color_en": "Silver",
+      "priority": "low"
+    },
+    {
+      "part_number": "MG004ZA/A",
+      "storage": "2TB",
+      "color": "宇宙橙色",
+      "color_en": "Cosmic Orange",
+      "priority": "low"
+    },
+    {
+      "part_number": "MG014ZA/A",
+      "storage": "2TB",
+      "color": "深墨蓝色",
+      "color_en": "Deep Blue",
+      "priority": "low"
+    }
+  ],
+  "total_models": 12,
+  "storage_options": ["256GB", "512GB", "1TB", "2TB"],
+  "color_options": ["深墨蓝色", "宇宙橙色", "银色"],
+  "api_info": {
+    "base_url": "https://www.apple.com/hk-zh/shop/fulfillment-messages",
+    "language": "zh-HK",
+    "currency": "HKD"
+  },
+  "notes": [
+    "256GB配置最热门，优先监控",
+    "512GB性价比高，推荐备选",
+    "1TB和2TB相对冷门，库存相对充足",
+    "所有Part Number均为香港版（ZA/A结尾）"
+  ]
+}
+
+

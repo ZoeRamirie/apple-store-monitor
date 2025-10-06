@@ -1,0 +1,438 @@
+{
+  "scan_date": "2025-10-06T00:29:41.453275",
+  "total_stores": 48,
+  "stores": [
+    {
+      "valid": true,
+      "storeNumber": "R320",
+      "storeName": "三里屯",
+      "city": "北京",
+      "state": "北京",
+      "phoneNumber": "4006171363",
+      "address": "北京市朝阳区三里屯路 19 号院"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R359",
+      "storeName": "南京东路",
+      "city": "上海",
+      "state": "上海",
+      "phoneNumber": "4006639988",
+      "address": "上海市黄浦区南京东路 300 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R388",
+      "storeName": "西单大悦城",
+      "city": "北京",
+      "state": "北京",
+      "phoneNumber": "4006171204",
+      "address": "北京市西城区西单北大街 131 号大悦城"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R389",
+      "storeName": "浦东",
+      "city": "上海",
+      "state": "上海",
+      "phoneNumber": "4006171305",
+      "address": "上海市浦东新区陆家嘴世纪大道 8 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R390",
+      "storeName": "香港广场",
+      "city": "上海",
+      "state": "上海",
+      "phoneNumber": "4006171312",
+      "address": "上海市黄浦区淮海中路 282 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R401",
+      "storeName": "上海环贸 iapm ",
+      "city": "上海",
+      "state": "上海",
+      "phoneNumber": "4006171324",
+      "address": "上海市徐汇区淮海中路 999 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R448",
+      "storeName": "王府井",
+      "city": "北京",
+      "state": "北京",
+      "phoneNumber": "4006171205",
+      "address": "北京市东城区王府井大街 138 号北京 apm"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R471",
+      "storeName": "西湖",
+      "city": "杭州",
+      "state": "浙江",
+      "phoneNumber": "4006171302",
+      "address": "杭州市上城区平海路 100 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R476",
+      "storeName": "重庆北城天街",
+      "city": "重庆",
+      "state": "重庆",
+      "phoneNumber": "4006171240",
+      "address": "重庆市江北区北城天街 8 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R479",
+      "storeName": "华贸购物中心",
+      "city": "北京",
+      "state": "北京",
+      "phoneNumber": "4006171210",
+      "address": "北京市朝阳区建国路 81 号华贸购物中心"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R480",
+      "storeName": "解放碑",
+      "city": "重庆",
+      "state": "重庆",
+      "phoneNumber": "4006171224",
+      "address": "重庆市渝中区邹容路 108 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R484",
+      "storeName": "深圳益田假日广场",
+      "city": "深圳",
+      "state": "广东",
+      "phoneNumber": "4006171254",
+      "address": "深圳市南山区深南大道 9028 号益田假日广场"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R493",
+      "storeName": "新街口",
+      "city": "南京",
+      "state": "江苏",
+      "phoneNumber": "4006171334",
+      "address": "南京市玄武区中山路 100 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R502",
+      "storeName": "成都万象城",
+      "city": "成都",
+      "state": "四川",
+      "phoneNumber": "4006171214",
+      "address": "成都市成华区双庆路 8 号万象城"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R531",
+      "storeName": "天一广场",
+      "city": "宁波",
+      "state": "浙江",
+      "phoneNumber": "4006139774",
+      "address": "宁波市海曙区碶闸街 155 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R532",
+      "storeName": "杭州万象城",
+      "city": "杭州",
+      "state": "浙江",
+      "phoneNumber": "4006171304",
+      "address": "杭州市上城区富春路 701 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R534",
+      "storeName": "中街大悦城",
+      "city": "沈阳",
+      "state": "辽宁",
+      "phoneNumber": "4006171252",
+      "address": "沈阳市大东区小东路 5 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R557",
+      "storeName": "青岛万象城",
+      "city": "青岛",
+      "state": "山东",
+      "phoneNumber": "4006171285",
+      "address": "青岛市市南区山东路 6A 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R571",
+      "storeName": "南宁万象城",
+      "city": "南宁",
+      "state": "广西壮族自治区",
+      "phoneNumber": "4006171265",
+      "address": "南宁市青秀区民族大道 136 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R572",
+      "storeName": "郑州万象城",
+      "city": "郑州",
+      "state": "河南",
+      "phoneNumber": "4006171264",
+      "address": "郑州市二七区民主路 10 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R573",
+      "storeName": "重庆万象城",
+      "city": "重庆",
+      "state": "重庆",
+      "phoneNumber": "4006171215",
+      "address": "重庆市九龙坡区谢家湾正街 55 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R574",
+      "storeName": "无锡恒隆广场",
+      "city": "无锡",
+      "state": "江苏",
+      "phoneNumber": "4006171325",
+      "address": "无锡市梁溪区"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R575",
+      "storeName": "武汉",
+      "city": "武汉",
+      "state": "湖北",
+      "phoneNumber": "4006383818",
+      "address": "武汉市江汉区解放大道 690 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R576",
+      "storeName": "沈阳万象城",
+      "city": "沈阳",
+      "state": "辽宁",
+      "phoneNumber": "4006171274",
+      "address": "沈阳市和平区青年大街 288 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R577",
+      "storeName": "天环广场 ",
+      "city": "广州",
+      "state": "广东",
+      "phoneNumber": "4006139742",
+      "address": "广州市天河区天河路 218 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R579",
+      "storeName": "天津恒隆广场",
+      "city": "天津",
+      "state": "天津",
+      "phoneNumber": "4006139744",
+      "address": "天津市和平区兴安路 166 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R580",
+      "storeName": "成都太古里",
+      "city": "成都",
+      "state": "四川",
+      "phoneNumber": "4006171275",
+      "address": "成都市锦江区中纱帽街 8 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R581",
+      "storeName": "五角场",
+      "city": "上海",
+      "state": "上海",
+      "phoneNumber": "4006139771",
+      "address": "上海市杨浦区翔殷路 1099 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R609",
+      "storeName": "大连恒隆广场",
+      "city": "大连",
+      "state": "辽宁",
+      "phoneNumber": "4006139741",
+      "address": "大连市西岗区五四路 66 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R617",
+      "storeName": "长沙",
+      "city": "长沙",
+      "state": "湖南",
+      "phoneNumber": "4006043168",
+      "address": "长沙市芙蓉区解放西路 188 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R637",
+      "storeName": "天津大悦城",
+      "city": "天津",
+      "state": "天津",
+      "phoneNumber": "4006171262",
+      "address": "天津市南开区南门外大街 2 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R638",
+      "storeName": "天津万象城",
+      "city": "天津",
+      "state": "天津",
+      "phoneNumber": "4006139745",
+      "address": "天津市河西区乐园道 9 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R639",
+      "storeName": "珠江新城",
+      "city": "广州",
+      "state": "广东",
+      "phoneNumber": "4006393601",
+      "address": "广州珠江新城兴民路 222 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R643",
+      "storeName": "虹悦城",
+      "city": "南京",
+      "state": "江苏",
+      "phoneNumber": "4006171332",
+      "address": "南京市雨花台区应天大街 619 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R644",
+      "storeName": "厦门新生活广场",
+      "city": "厦门",
+      "state": "福建",
+      "phoneNumber": "4006171383",
+      "address": "厦门市思明区嘉禾路 399 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R645",
+      "storeName": "朝阳大悦城",
+      "city": "北京",
+      "state": "北京",
+      "phoneNumber": "4006171284",
+      "address": "北京市朝阳区朝阳北路 101 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R646",
+      "storeName": "泰禾广场",
+      "city": "福州",
+      "state": "福建",
+      "phoneNumber": "4006171354",
+      "address": "福州市晋安区竹屿路 6 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R648",
+      "storeName": "济南恒隆广场",
+      "city": "济南",
+      "state": "山东",
+      "phoneNumber": "4006139743",
+      "address": "济南市历下区泉城路 188 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R670",
+      "storeName": "昆明",
+      "city": "昆明",
+      "state": "云南",
+      "phoneNumber": "4006393602",
+      "address": "昆明市五华区东风西路 11 号 "
+    },
+    {
+      "valid": true,
+      "storeNumber": "R678",
+      "storeName": "静安",
+      "city": "上海",
+      "state": "上海",
+      "phoneNumber": "4000003235",
+      "address": "上海市静安区南京西路 1699 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R683",
+      "storeName": "环球港",
+      "city": "上海",
+      "state": "上海",
+      "phoneNumber": "4006171335",
+      "address": "上海市普陀区中山北路 3300 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R688",
+      "storeName": "苏州",
+      "city": "苏州",
+      "state": "江苏",
+      "phoneNumber": "4006139775",
+      "address": "苏州市苏州工业园区"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R703",
+      "storeName": "玄武湖",
+      "city": "南京",
+      "state": "江苏",
+      "phoneNumber": "4006139772",
+      "address": "南京市鼓楼区中央路 201 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R705",
+      "storeName": "七宝",
+      "city": "上海",
+      "state": "上海",
+      "phoneNumber": "4006139773",
+      "address": "上海市闵行区漕宝路 3366 号 "
+    },
+    {
+      "valid": true,
+      "storeNumber": "R761",
+      "storeName": "深圳万象城",
+      "city": "深圳",
+      "state": "广东",
+      "phoneNumber": "4000501588",
+      "address": "深圳市罗湖区宝安南路 1881 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R765",
+      "storeName": "合肥万象城",
+      "city": "合肥",
+      "state": "安徽",
+      "phoneNumber": "4000005292",
+      "address": "合肥市蜀山区潜山路 111 号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R766",
+      "storeName": "温州万象城",
+      "city": "温州",
+      "state": "浙江",
+      "phoneNumber": "4000002385",
+      "address": "浙江省温州市瓯海区瓯越大道1999号"
+    },
+    {
+      "valid": true,
+      "storeNumber": "R793",
+      "storeName": "前海壹方城",
+      "city": "深圳",
+      "state": "广东",
+      "phoneNumber": "4000027805",
+      "address": "深圳市宝安区新湖路 99 号"
+    }
+  ]
+}

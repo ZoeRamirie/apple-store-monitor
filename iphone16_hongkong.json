@@ -1,0 +1,32 @@
+{
+  "region": "Hong Kong",
+  "region_code": "HK",
+  "device": "iPhone 16",
+  "part_number_format": "ZA/A",
+  "last_updated": "2025-10-06",
+  "verified": true,
+  "models": [
+    {
+      "part_number": "MYEV3ZA/A",
+      "storage": "128GB",
+      "color": "黑色",
+      "color_en": "Black",
+      "priority": "test",
+      "note": "测试用-有库存"
+    }
+  ],
+  "total_models": 1,
+  "storage_options": ["128GB"],
+  "color_options": ["黑色"],
+  "api_info": {
+    "base_url": "https://www.apple.com/hk-zh/shop/retail/pickup-message",
+    "language": "zh-HK",
+    "currency": "HKD"
+  },
+  "notes": [
+    "用于测试对比的iPhone 16机型",
+    "该型号应该有库存可用",
+    "Part Number为香港版（ZA/A结尾）"
+  ]
+}
+

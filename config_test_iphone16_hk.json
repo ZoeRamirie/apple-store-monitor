@@ -1,0 +1,21 @@
+{
+  "region": "HK",
+  "target_products": [
+    {
+      "name": "iPhone 16 黑色 128GB",
+      "part_number": "MYEV3ZA/A",
+      "color": "黑色",
+      "storage": "128GB"
+    }
+  ],
+  "target_stores": [
+    "R409",
+    "R428",
+    "R485"
+  ],
+  "check_interval": 30,
+  "notification_enabled": true,
+  "sound_enabled": true,
+  "save_history": true
+}
+

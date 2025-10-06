@@ -1,0 +1,115 @@
+{
+  "head": {
+    "status": "200"
+  },
+  "body": {
+    "content": {
+      "pickupMessage": {
+        "pickupEligibility": {
+          "MFYP4ZA/A": {
+            "messageTypes": {
+              "sticky": {
+                "storePickupLabel": "取貨：",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickEligible": true,
+                "storePickupProductTitle": "iPhone 17 Pro Max 256GB 深墨藍色",
+                "storePickupMessage": "店內取貨",
+                "storeSearchEnabled": true
+              },
+              "regular": {
+                "storePickupLabel": "取貨：",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickEligible": true,
+                "storePickupProductTitle": "iPhone 17 Pro Max 256GB 深墨藍色",
+                "storePickupMessage": "店內取貨",
+                "storeSearchEnabled": true
+              }
+            }
+          }
+        },
+        "little": false
+      },
+      "deliveryMessage": {
+        "MFYP4ZA/A": {
+          "sticky": {
+            "orderByDeliveryBy": "今天訂購，送達於：",
+            "deliveryOptionMessages": [
+              {
+                "displayName": "24/10/2025 – 01/11/2025 — 免費",
+                "inHomeSetup": "false",
+                "encodedUpperDateString": "20251101"
+              }
+            ],
+            "deliveryOptions": [
+              {
+                "displayName": "標準運送",
+                "date": "24/10/2025 – 01/11/2025",
+                "shippingCost": "免費"
+              }
+            ],
+            "showDeliveryOptionsLink": false,
+            "messageType": "Delivery",
+            "basePartNumber": "MFYP4",
+            "commitCodeId": "200",
+            "subHeader": "適用於 iPhone 17 Pro Max 256GB 深墨藍色",
+            "stickyMessageSTH": "<span class=\"bold\">24/10/2025 – 01/11/2025</span> (免費)",
+            "buyability": {
+              "reason": "OK",
+              "commitCode": "200",
+              "isBuyable": true
+            },
+            "defaultLocationEnabled": false,
+            "idl": false,
+            "inHomeSetup": false,
+            "isElectronic": false,
+            "isBuyable": true
+          },
+          "regular": {
+            "orderByDeliveryBy": "今天訂購，送達於：",
+            "deliveryOptionMessages": [
+              {
+                "displayName": "24/10/2025 – 01/11/2025 — 免費",
+                "inHomeSetup": "false",
+                "encodedUpperDateString": "20251101"
+              }
+            ],
+            "deliveryOptions": [
+              {
+                "displayName": "標準運送",
+                "date": "24/10/2025 – 01/11/2025",
+                "shippingCost": "免費"
+              }
+            ],
+            "showDeliveryOptionsLink": false,
+            "messageType": "Delivery",
+            "basePartNumber": "MFYP4",
+            "commitCodeId": "200",
+            "subHeader": "適用於 iPhone 17 Pro Max 256GB 深墨藍色",
+            "stickyMessageSTH": "<span class=\"bold\">24/10/2025 – 01/11/2025</span> (免費)",
+            "buyability": {
+              "reason": "OK",
+              "commitCode": "200",
+              "isBuyable": true
+            },
+            "defaultLocationEnabled": false,
+            "idl": false,
+            "inHomeSetup": false,
+            "isElectronic": false,
+            "isBuyable": true
+          }
+        },
+        "geoLocated": false,
+        "availableOptionsText": "Available Options",
+        "dudeCookieSet": true,
+        "dudeLocated": false,
+        "locationCookieValueFoundForThisCountry": true,
+        "accessibilityDeliveryOptions": "送貨選項"
+      }
+    },
+    "footnotes": {
+      "nextAvailableNumber": 1
+    }
+  }
+}
+
+
