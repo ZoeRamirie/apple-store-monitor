@@ -121,9 +121,11 @@ def print_banner():
     """打印欢迎横幅"""
     print(f"\n{Fore.CYAN}{'='*80}{Style.RESET_ALL}")
     print(f"{Fore.CYAN}║{' '*78}║{Style.RESET_ALL}")
-    print(f"{Fore.CYAN}║{' '*20}🍎 Apple Store 智能库存监控系统 v3.0 🍎{' '*19}║{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}║{' '*20}🍎 Apple Store 智能库存监控系统 v1.1.0 🍎{' '*17}║{Style.RESET_ALL}")
     print(f"{Fore.CYAN}║{' '*78}║{Style.RESET_ALL}")
     print(f"{Fore.CYAN}║{' '*15}实时监控 • 智能防护 • 安全高效 • 人性化操作{' '*18}║{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}║{' '*78}║{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}║{' '*25}版权所有：骑着大鹅追大奔{' '*25}║{Style.RESET_ALL}")
     print(f"{Fore.CYAN}║{' '*78}║{Style.RESET_ALL}")
     print(f"{Fore.CYAN}{'='*80}{Style.RESET_ALL}\n")
     
@@ -941,6 +943,7 @@ def main():
     
     print(f"\n{Fore.CYAN}{'='*80}{Style.RESET_ALL}")
     print(f"{Fore.CYAN}  程序已退出。感谢使用 Apple Store 智能库存监控系统 v3.0！{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}  版权所有：骑着大鹅追大奔{Style.RESET_ALL}")
     print(f"{Fore.CYAN}{'='*80}{Style.RESET_ALL}\n")
     
     logger.info("程序正常退出")

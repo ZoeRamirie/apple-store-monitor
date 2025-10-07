@@ -602,6 +602,11 @@ class InteractiveConfigGenerator:
 
 
 if __name__ == "__main__":
+    print(f"\n{Fore.CYAN}{'='*70}{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}🍎 Apple Store 智能库存监控系统 v1.1.0 - 交互式配置 🍎{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}版权所有：骑着大鹅追大奔{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}{'='*70}{Style.RESET_ALL}\n")
+    
     generator = InteractiveConfigGenerator()
     config = generator.generate()
     
@@ -611,4 +616,5 @@ if __name__ == "__main__":
             json.dump(config, f, indent=2, ensure_ascii=False)
         
         print(f"\n{Fore.GREEN}✅ 配置已保存到: config_custom.json{Style.RESET_ALL}")
+        print(f"{Fore.CYAN}版权所有：骑着大鹅追大奔{Style.RESET_ALL}")
 

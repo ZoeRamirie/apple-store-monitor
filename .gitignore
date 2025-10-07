@@ -41,6 +41,9 @@ config.json
 monitor.log
 temp_*.txt
 stock_history_*.json
+stock_history_*.json
+hongkong_stores_verification_*.json
+hongkong_api_response_analysis.json
 
 # User data
 *.xlsx
@@ -53,6 +56,21 @@ stock_history_*.json
 
 # Test files
 test_*.py
+test_*.sh
+
+# 临时文件和脚本
+quick_fix_*.sh
+temp_monitor.txt
+
+# 浏览器脚本
+浏览器Console脚本.js
+
+# 分析报告（保留核心文档，排除临时分析）
+本次分析创建文件清单.md
+完整扫描结果报告.md
+等待测试_手动验证指南.md
+分析_香港API响应.md
+单门店多产品分析.md
 
 # macOS
 .DS_Store
