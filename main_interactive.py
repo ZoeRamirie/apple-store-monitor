@@ -55,7 +55,7 @@ def calculate_request_frequency(num_products, num_stores, check_interval):
     Returns:
         dict: 包含频率、安全等级等信息
     """
-    store_delay = 1  # 每个门店间延迟1秒
+    store_delay = 0.5  # 每个门店间延迟0.5秒
     requests_per_round = num_products * num_stores
     total_round_time = (num_stores * store_delay) + check_interval
     requests_per_minute = (requests_per_round / total_round_time) * 60
@@ -107,7 +107,7 @@ def calculate_request_frequency(num_products, num_stores, check_interval):
 def suggest_safe_interval(num_products, num_stores):
     """建议安全的检查间隔"""
     requests_per_round = num_products * num_stores
-    store_delay = num_stores * 1
+    store_delay = num_stores * 0.5
     
     # 目标：10次/分钟（最安全）
     target_frequency = 10
@@ -689,7 +689,7 @@ def run_with_interactive_config():
         
         products = select_products()
         stores = select_stores(all_stores, max_stores=5)
-        check_interval = 30
+        check_interval = 15
     
     elif mode == 3:
         # 积极监控模式
@@ -699,7 +699,7 @@ def run_with_interactive_config():
         
         products = select_products()
         stores = select_stores(all_stores, max_stores=3)
-        check_interval = 20
+        check_interval = 15
     
     elif mode == 4:
         # 极限监控模式
@@ -714,7 +714,7 @@ def run_with_interactive_config():
             print(f"\n{Fore.YELLOW}⚠️  极限模式只能选择1个门店，已自动选择第一个{Style.RESET_ALL}")
             stores = stores[:1]
         
-        check_interval = 10
+        check_interval = 15
     
     else:  # mode == 5
         # 自定义模式
@@ -840,7 +840,7 @@ def monitor_loop(monitor: AppleStoreMonitor, notifier: Notifier, config: dict):
     """主监控循环"""
     products = config['target_products']
     target_stores = config.get('target_stores', []) if not config.get('all_stores', False) else None
-    check_interval = config.get('check_interval', 30)
+    check_interval = config.get('check_interval', 15)
     
     iteration = 0
     

@@ -85,7 +85,13 @@ def main():
         # 显示基本信息
         products = len(config.get('target_products', []))
         stores = len(config.get('target_stores', []))
-        frequency = products * (60 / config.get('check_interval', 60))
+        check_interval = config.get('check_interval', 60)
+        
+        # 计算频率（考虑随机延迟）
+        requests_per_check = products * stores
+        avg_request_time = requests_per_check * 4.5
+        total_cycle_time = avg_request_time + check_interval
+        frequency = (requests_per_check / total_cycle_time) * 60
         
         print(f"\n{Fore.CYAN}📊 监控配置:{Style.RESET_ALL}")
         print(f"   • 产品: {products} 个")
@@ -110,4 +116,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print(f"\n{Fore.YELLOW}用户中断{Style.RESET_ALL}")
         sys.exit(0)
+
 

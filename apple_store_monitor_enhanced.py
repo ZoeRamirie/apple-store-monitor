@@ -343,11 +343,11 @@ class AppleStoreMonitorEnhanced:
             
             # 随机延迟（最后一个不延迟）
             if i < len(combinations):
-                # 随机延迟：3-6秒（正态分布更自然）
-                delay = random.gauss(4.5, 0.8)  # 均值4.5秒，标准差0.8
-                delay = max(3, min(6, delay))  # 限制在3-6秒
+                # 随机延迟：1.5-2.5秒（正态分布更自然）
+                delay = random.gauss(2.0, 0.3)  # 均值2.0秒，标准差0.3
+                delay = max(1.5, min(2.5, delay))  # 限制在1.5-2.5秒
                 
-                logger.info(f"⏳ [{i}/{len(combinations)}] 等待 {delay:.1f}秒 后发送下一个请求...")
+                logger.info(f"⏳ [{i}/{len(combinations)}] 等待 {delay:.3f}秒 后发送下一个请求...")
                 self._interruptible_sleep(delay)
         
         # 步骤4: 更新响应门店数量

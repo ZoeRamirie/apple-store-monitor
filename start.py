@@ -219,19 +219,18 @@ def show_summary(config, region):
     
     products = config.get('target_products', [])
     stores = config.get('target_stores', [])
-    interval = config.get('check_interval', 60)
+    interval = config.get('check_interval', 15)
     
     print(f"{Fore.CYAN}  监控产品:{Style.RESET_ALL} {len(products)} 个")
     print(f"{Fore.CYAN}  监控门店:{Style.RESET_ALL} {len(stores)} 个")
     print(f"{Fore.CYAN}  检查间隔:{Style.RESET_ALL} {interval} 秒")
     
-    # 计算频率
-    if region == 'HK':
-        # 香港：每个产品一次查询
-        frequency = len(products) * (60 / interval)
-    else:
-        # 大陆：每个产品×每个门店
-        frequency = len(products) * len(stores) * (60 / interval)
+    # 计算频率（考虑随机延迟）
+    requests_per_check = len(products) * len(stores)
+    # 考虑随机延迟（平均2.0秒）
+    avg_request_time = requests_per_check * 2.0
+    total_cycle_time = avg_request_time + interval
+    frequency = (requests_per_check / total_cycle_time) * 60
     
     safety = "✅ 安全" if frequency <= 10 else ("⚠️ 注意" if frequency <= 30 else "❌ 危险")
     print(f"{Fore.CYAN}  请求频率:{Style.RESET_ALL} {frequency:.1f} 次/分钟 {safety}")

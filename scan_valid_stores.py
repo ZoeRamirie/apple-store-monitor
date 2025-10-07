@@ -91,7 +91,7 @@ def test_store_number(store_number, part_number="MG0G4CH/A"):
         }
 
 
-def scan_store_range(start, end, delay=3, conservative=False):
+def scan_store_range(start, end, delay=2, conservative=False):
     """
     扫描一个范围的门店编号
     
@@ -109,7 +109,7 @@ def scan_store_range(start, end, delay=3, conservative=False):
     
     # 保守模式使用更长延迟
     if conservative:
-        delay = max(delay, 5)
+        delay = max(delay, 3)
         print(f"\n⚠️  保守模式已启用：每次请求延迟{delay}秒，每10次额外休息30秒")
     
     print(f"\n{'='*80}")

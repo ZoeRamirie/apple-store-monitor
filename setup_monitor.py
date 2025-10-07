@@ -246,19 +246,19 @@ def configure_parameters(model_count, store_count):
     
     # 根据查询量推荐间隔
     if queries_per_round <= 10:
-        recommended_interval = 30
+        recommended_interval = 15
         risk = "🟢 低"
     elif queries_per_round <= 20:
-        recommended_interval = 60
+        recommended_interval = 15
         risk = "🟢 低"
     elif queries_per_round <= 40:
-        recommended_interval = 90
+        recommended_interval = 15
         risk = "🟡 中"
     elif queries_per_round <= 80:
-        recommended_interval = 150
+        recommended_interval = 15
         risk = "🟠 中高"
     else:
-        recommended_interval = 180
+        recommended_interval = 15
         risk = "🔴 高"
     
     print(f"{Fore.WHITE}根据您的配置：")
@@ -287,7 +287,7 @@ def configure_parameters(model_count, store_count):
     
     choice = input(f"{Fore.GREEN}请选择 (直接回车使用推荐值 {recommended_interval}秒)：{Style.RESET_ALL}").strip()
     
-    interval_map = {'1': 30, '2': 60, '3': 90, '4': 120, '5': 180}
+    interval_map = {'1': 15, '2': 15, '3': 15, '4': 15, '5': 15}
     
     if not choice:
         check_interval = recommended_interval

@@ -31,7 +31,7 @@ class InteractiveConfigGenerator:
             "region": "CN",
             "target_products": [],
             "target_stores": [],
-            "check_interval": 60,
+            "check_interval": 15,
             "notification_enabled": True,
             "sound_enabled": True,
             "save_history": True
@@ -172,25 +172,25 @@ class InteractiveConfigGenerator:
         
         print(f"{Fore.GREEN}  1. 保守策略（推荐新手）{Style.RESET_ALL}")
         print(f"     • 1-2店 + 1-2品")
-        print(f"     • 随机间隔: 3-6秒")
-        print(f"     • 请求频率: 约10次/分钟")
+        print(f"     • 随机间隔: 1.5-2.5秒")
+        print(f"     • 请求频率: 约15次/分钟")
         print(f"     • 风险等级: {Fore.GREEN}✅ 极低{Style.RESET_ALL}\n")
         
         print(f"{Fore.GREEN}  2. 平衡策略（推荐）{Style.RESET_ALL}")
         print(f"     • 2-3店 + 2-3品")
-        print(f"     • 随机间隔: 3-6秒")
-        print(f"     • 请求频率: 约10次/分钟")
+        print(f"     • 随机间隔: 1.5-2.5秒")
+        print(f"     • 请求频率: 约15次/分钟")
         print(f"     • 风险等级: {Fore.GREEN}✅ 低{Style.RESET_ALL}\n")
         
         print(f"{Fore.YELLOW}  3. 积极策略{Style.RESET_ALL}")
         print(f"     • 3-4店 + 3-4品")
-        print(f"     • 随机间隔: 3-6秒")
-        print(f"     • 请求频率: 约15次/分钟")
+        print(f"     • 随机间隔: 1.5-2.5秒")
+        print(f"     • 请求频率: 约20次/分钟")
         print(f"     • 风险等级: {Fore.YELLOW}⚠️ 中{Style.RESET_ALL}\n")
         
         print(f"{Fore.RED}  4. 激进策略（高风险）{Style.RESET_ALL}")
         print(f"     • 5店 + 5品")
-        print(f"     • 随机间隔: 2-4秒")
+        print(f"     • 随机间隔: 1.5-2.5秒")
         print(f"     • 请求频率: 约25次/分钟")
         print(f"     • 风险等级: {Fore.RED}❌ 高（可能被限制）{Style.RESET_ALL}\n")
         
@@ -418,7 +418,7 @@ class InteractiveConfigGenerator:
         
         return selected
     
-    def set_interval(self, recommended=60):
+    def set_interval(self, recommended=15):
         """设置检查间隔"""
         self.print_header("⏰ 步骤4: 设置检查间隔")
         
@@ -443,14 +443,17 @@ class InteractiveConfigGenerator:
             return recommended
     
     def calculate_frequency(self, products_count, stores_count, interval):
-        """计算请求频率"""
+        """计算请求频率（考虑随机延迟）"""
         requests_per_check = products_count * stores_count
-        frequency = requests_per_check * (60 / interval)
+        # 考虑随机延迟（平均2.0秒）
+        avg_request_time = requests_per_check * 2.0
+        total_cycle_time = avg_request_time + interval
+        frequency = (requests_per_check / total_cycle_time) * 60
         
         if frequency <= 10:
             level = f"{Fore.GREEN}✅ 安全{Style.RESET_ALL}"
             risk = "低"
-        elif frequency <= 30:
+        elif frequency <= 20:
             level = f"{Fore.YELLOW}⚠️ 注意{Style.RESET_ALL}"
             risk = "中"
         else:
@@ -518,19 +521,19 @@ class InteractiveConfigGenerator:
                 if strategy == '1':  # 保守
                     products = self.select_products(max_count=2)
                     max_stores = 2
-                    interval = 30
+                    interval = 15
                 elif strategy == '2':  # 平衡
                     products = self.select_products(max_count=3)
                     max_stores = 3
-                    interval = 60
+                    interval = 15
                 elif strategy == '3':  # 积极
                     products = self.select_products(max_count=4)
                     max_stores = 4
-                    interval = 90
+                    interval = 15
                 elif strategy == '4':  # 激进
                     products = self.select_products(max_count=5)
                     max_stores = 5
-                    interval = 90
+                    interval = 15
                 else:  # 自定义
                     products = self.select_products()
                     max_stores = None
